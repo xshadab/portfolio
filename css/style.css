@@ -2,7 +2,10 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
 }
-
+.progress-bar {
+  width: 0;
+  transition: width 1s ease-in-out;
+}
 a {
   color: #34b7a7;
   text-decoration: none;
